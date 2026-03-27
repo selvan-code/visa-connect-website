@@ -1,0 +1,331 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* BODY */
+
+body {
+  background: #f8fafc;
+  color: #1f2937;
+}
+
+/* HERO */
+
+.hero-uk {
+
+  background: linear-gradient(135deg, #001f3f, #003a8c);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+}
+
+.hero-uk h1 {
+
+  font-size: 38px;
+
+  margin-bottom: 15px;
+
+}
+
+.hero-uk p {
+
+  font-size: 18px;
+
+  max-width: 700px;
+
+  margin: auto;
+
+}
+
+/* IMAGE SECTION */
+
+.country-image-section {
+
+  padding: 70px 20px;
+
+  background: white;
+
+}
+
+.country-image-container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 50px;
+
+  max-width: 1150px;
+
+  margin: auto;
+
+  flex-wrap: wrap;
+
+}
+
+.country-image img {
+
+  width: 480px;
+
+  max-width: 100%;
+
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.country-image-content {
+
+  max-width: 520px;
+
+}
+
+.country-image-content h2 {
+
+  color: #003a8c;
+
+  margin-bottom: 15px;
+
+}
+
+.country-image-content p {
+
+  color: #374151;
+
+  line-height: 1.7;
+
+}
+
+/* INTRO */
+
+.uk-intro {
+
+  padding: 50px 20px;
+
+  text-align: center;
+
+  max-width: 900px;
+
+  margin: auto;
+
+  color: #374151;
+
+}
+
+/* VISA TYPES */
+
+.visa-types {
+
+  padding: 70px 20px;
+
+  background: #eef2ff;
+
+}
+
+.visa-types h2 {
+
+  text-align: center;
+
+  margin-bottom: 40px;
+
+  color: #003a8c;
+
+}
+
+.visa-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  gap: 25px;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+}
+
+.visa-card {
+
+  background: white;
+
+  padding: 28px;
+
+  border-radius: 12px;
+
+  border: 1px solid #e5e7eb;
+
+  transition: 0.3s;
+
+}
+
+.visa-card:hover {
+
+  transform: translateY(-6px);
+
+}
+
+.visa-card h3 {
+
+  color: #1e3a8a;
+
+  margin-bottom: 10px;
+
+}
+
+.visa-card p {
+
+  color: #4b5563;
+
+}
+
+/* SUPPORT */
+
+.support-section {
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  background: white;
+
+}
+
+.support-section h2 {
+
+  color: #003a8c;
+
+  margin-bottom: 15px;
+
+}
+
+.support-section p {
+
+  max-width: 700px;
+
+  margin: auto;
+
+  color: #374151;
+
+}
+
+/* CTA */
+
+.cta {
+
+  background: linear-gradient(135deg, #001f3f, #003a8c);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 70px 20px;
+
+}
+
+.cta a {
+
+  display: inline-block;
+
+  margin-top: 18px;
+
+  background: white;
+
+  color: #003a8c;
+
+  padding: 13px 26px;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .country-image-container {
+
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+  .hero-uk h1 {
+
+    font-size: 28px;
+
+  }
+
+}
+
+/* ================================= */
+/* NAVBAR LOGO SIZE FIX */
+/* ================================= */
+
+.brand {
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+/* Increase logo size */
+
+.logo-img {
+
+  width: 60px;
+  /* NEW SIZE */
+  height: 60px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 2px solid white;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  transition: transform 0.3s ease;
+
+}
+
+/* Hover effect */
+
+.logo-img:hover {
+
+  transform: scale(1.1);
+
+}
+
+/* Navbar height alignment */
+
+.navbar {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 14px 6%;
+
+}
