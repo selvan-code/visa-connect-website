@@ -41,6 +41,8 @@ body {
   border-radius: 12px;
   text-align: center;
   transition: 0.3s;
+  max-width: 300px; /* optional: set a fixed width */
+  margin: 0 auto;   /* center the card */
 }
 
 .contact-card:hover {
@@ -54,6 +56,9 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  word-wrap: break-word;     /* allow breaking long words */
+  overflow-wrap: break-word; /* modern equivalent */
+  max-width: 100%;           /* keep within card */
 }
 
 /* FORM */
