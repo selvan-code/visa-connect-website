@@ -29,6 +29,68 @@ body {
   opacity: 0.9;
 }
 
+/* IMAGE SECTION */
+
+.country-image-section {
+
+  padding: 70px 20px;
+
+  background: white;
+
+}
+
+.country-image-container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 50px;
+
+  max-width: 1150px;
+
+  margin: auto;
+
+  flex-wrap: wrap;
+
+}
+
+.country-image img {
+
+  width: 480px;
+
+  max-width: 100%;
+
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.country-image-content {
+
+  max-width: 520px;
+
+}
+
+.country-image-content h2 {
+
+  color: #003a8c;
+
+  margin-bottom: 15px;
+
+}
+
+.country-image-content p {
+
+  color: #374151;
+
+  line-height: 1.7;
+
+}
+
 /* INTRO */
 
 .uk-intro {

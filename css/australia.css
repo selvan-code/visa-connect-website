@@ -29,6 +29,74 @@ body {
   opacity: 0.9;
 }
 
+/* ===================================================== */
+/* IMAGE SECTION */
+/* ===================================================== */
+
+.country-image-section {
+  padding: 80px 20px;
+
+  background: #ffffff;
+}
+
+.country-image-container {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 60px;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  flex-wrap: wrap;
+}
+
+.country-image img {
+  width: 520px;
+
+  max-width: 100%;
+
+  border-radius: 16px;
+
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+
+  transition: 0.3s;
+}
+
+/* Image hover */
+
+.country-image img:hover {
+  transform: scale(1.03);
+}
+
+.country-image-content {
+  max-width: 540px;
+}
+
+.country-image-content h2 {
+  color: #0a2a66;
+
+  font-size: 30px;
+
+  margin-bottom: 18px;
+
+  font-weight: 700;
+}
+
+.country-image-content p {
+  color: #374151;
+
+  line-height: 1.8;
+
+  font-size: 16px;
+
+  margin-bottom: 14px;
+}
+
 /* INTRO */
 
 .visa-intro {
