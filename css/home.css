@@ -22,10 +22,19 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background-image: url("https://images.unsplash.com/photo-1502920917128-1aa500764cbd");
-    background-size: cover;
-    background-position: center;
 }
+
+/* Logo behaves like background */
+.hero .logo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* makes it behave like background-size: cover */
+    z-index: -1;         /* pushes it behind the content */
+}
+
 
 .hero-overlay {
     position: absolute;

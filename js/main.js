@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
   let index = 0;
   let isDeleting = false;
 
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+
+
   function typeEffect() {
     if (!isDeleting) {
       typingElement.textContent = text.substring(0, index + 1);
